@@ -1,0 +1,130 @@
+.body{
+    background-color: rgb(233, 230, 244);
+}
+.parent{
+   margin: 10%;
+   padding: 10%;
+   background-color: white;
+   width: 550px;
+   height: 200px;
+   padding-left: 20%;
+   margin-top: 40px;
+   border-radius: 5%;
+   padding-top: 140px;
+   
+}
+.img{
+    margin-top: 20px;
+    position:absolute;
+    top: 20px;
+    left: 60px;
+    z-index: 20;
+}
+.create{
+    margin-top: 20px;
+    position:absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 20;
+    width: 300px;
+    font-size: 20px;
+    font-style: normal;
+}
+.one{
+    margin-top: 40px;
+    position:absolute;
+    top: 200px;
+    left: 150px;
+    z-index: 10;
+    width: 20%;
+    font-size: 20px;
+    font-style: normal;
+}
+.input{
+    width: 360px;
+    height: 50px;
+    border-color: blue;
+    border-radius: 5px;
+    margin-left: 240px;
+    position: relative; 
+    /* padding:0px; */
+    display: flex;
+   
+}
+.btnnext{
+    margin-left: 500px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    border-color: blue;
+    color:white;
+    font-size: 15px;
+    background-color:rgb(149, 149, 217);
+    cursor:pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80px;
+    
+}
+.btnh{
+    margin-left: 350px;
+    border-radius: 10px;
+    margin-top: 0px;
+    border: 1px solid transparent;
+    border-color: whitesmoke;
+    color: black;
+    font-size: 12px;
+    /* background-color: white; */
+    cursor:pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btnp{
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 0px;
+    border: 1px solid transparent;
+    border-color: whitesmoke;
+    color: black;
+    font-size: 12px;
+    /* background-color: white; */
+    cursor:pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+}
+.btnt{
+    margin-left: 20px;
+    border-radius: 10px;
+    /* margin-top: 0px; */
+    border: 1px solid transparent;
+    border-color: whitesmoke;
+    color: black;
+    font-size: 12px;
+    /* background-color: white; */
+    cursor:pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.btne{
+    margin-left: 150px; 
+    border: 1px solid transparent;
+    border-color: whitesmoke;
+    color: black;
+    font-size: 12px;
+    /* background-color: white; */
+    cursor:pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+#form{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
